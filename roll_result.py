@@ -20,8 +20,8 @@ def roll_result(n_atk, n_def):
     if (len(dif) > 1) and (sum(dif) == 1):
         return print('both lose 1 unit.')
     if all(dif):
-        return print('the defender loses {} unit(s).'.format(len(x)))
-    return print('the attacker loses {} unit(s).'.format(len(x)))
+        return print('the defender loses {} unit(s).'.format(len(dif)))
+    return print('the attacker loses {} unit(s).'.format(len(dif)))
 
 if __name__ == '__main__':
-    roll_result(sys.argv[1], sys.argv[2])
+    roll_result(int(sys.argv[1]), int(sys.argv[2]))
