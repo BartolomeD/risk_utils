@@ -1,6 +1,4 @@
-# risk_utils
-
-Contains functions that simulate Risk battles.
+# Risk Assist
 
 Automates single roll events or entire battles.
 
